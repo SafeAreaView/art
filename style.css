@@ -128,3 +128,19 @@ hr {
     color: #46A095;
     max-width: 580px;
 }
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.youtube {
+    display: flex;
+    flex-direction: column;
+}
