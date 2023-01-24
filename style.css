@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #E1F1EB;
     box-sizing: border-box;
@@ -47,4 +51,80 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.about {
+    margin-top: 210px;
+    margin-bottom: 295px;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    max-width: 740px;
+}
+
+.main-title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #09695E;
+}
+
+.paragraph {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #17433E;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    background: #fff url(./assets/images/hr.png);
+    border: none;
+}
+
+.ilustration {
+    margin: 224px 0px 82px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 84px;
+    color: #09695E;
+    text-align: center;
+}
+
+.main-info {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #09695E;
+}
+
+.comment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #46A095;
+    max-width: 580px;
 }
